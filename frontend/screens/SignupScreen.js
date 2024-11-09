@@ -14,7 +14,7 @@ export default function SignupScreen({ navigation }) {
     }
 
     try {
-      const response = await axios.post('http:// 192.168.14.138:8000/accounts/register/', {
+      const response = await axios.post('http://192.168.14.138:8000/accounts/register/', {
         username: email,
         password: password,
       });
